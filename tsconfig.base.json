@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@rossetti-ui/button": ["packages/button/src/index.ts"]
+      "@rossetti-ui/button": ["packages/button/src/index.ts"],
+      "@rossetti-ui/header": ["packages/header/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
