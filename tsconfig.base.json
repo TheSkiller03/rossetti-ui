@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@rossetti-ui/button": ["packages/button/src/index.ts"],
+      "@rossetti-ui/footer": ["packages/footer/src/index.ts"],
       "@rossetti-ui/header": ["packages/header/src/index.ts"]
     }
   },
