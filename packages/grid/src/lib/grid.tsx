@@ -1,12 +1,15 @@
-import styles from './grid.module.css';
+import { ReactNode } from "react";
 
-export function Grid() {
+interface GridProps {
+  children: ReactNode;
+  columns?: number;
+  gap?: string;
+}
+
+export default function Grid({ children, columns = 3, gap = "gap-4" }: GridProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Grid!</h1>
+    <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-${columns} ${gap}`}>
+      {children}
     </div>
   );
 }
-
-export default Grid;
-
