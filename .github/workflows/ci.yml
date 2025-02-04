@@ -17,7 +17,7 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      - run: npm install
+      - run: npm install --force
 
       - name: publish to npm
         run: npx nx run-many --target=nx-release-publish --access=public
