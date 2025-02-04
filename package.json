@@ -5,7 +5,7 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
-    "@eslint/js": "^9.8.0",
+    "@eslint/js": "^8",
     "@nx/eslint": "19.8.14",
     "@nx/eslint-plugin": "19.8.14",
     "@nx/jest": "19.8.14",
